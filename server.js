@@ -126,6 +126,10 @@ app.post("/delete",(req,res)=>{
     }
 })
 
+app.get("/test",(req,res)=>{
+    console.log("Hello,Tesing Github!")
+})
+
 
 
 app.listen(port,(req,res)=>{
